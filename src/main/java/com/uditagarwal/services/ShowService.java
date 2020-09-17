@@ -27,7 +27,7 @@ public class ShowService {
 
     public Show createShow(@NonNull final Movie movie, @NonNull final Screen screen, @NonNull final Date startTime,
                            @NonNull final Integer durationInSeconds) {
-        if (!checkIfScreenFree(screen, startTime, durationInSeconds)) {
+        if (!checkIfShowCreationAllowed(screen, startTime, durationInSeconds)) {
             throw new ScreenAlreadyOccupiedException();
         }
         String showId = UUID.randomUUID().toString();
@@ -46,7 +46,7 @@ public class ShowService {
         return response;
     }
 
-    private boolean checkIfScreenFree(final Screen screen, final Date startTime, final Integer durationInSeconds) {
+    private boolean checkIfShowCreationAllowed(final Screen screen, final Date startTime, final Integer durationInSeconds) {
         // TODO: Implement this. This method will return whether the screen is free at a particular time for
         // specific duration. This function will be helpful in checking whether the show can be scheduled in that slot
         // or not.
