@@ -3,6 +3,7 @@ package com.uditagarwal.providers;
 import com.google.common.collect.ImmutableList;
 import com.uditagarwal.exceptions.SeatTemporaryUnavailableException;
 import com.uditagarwal.model.Seat;
+import com.uditagarwal.model.SeatLock;
 import com.uditagarwal.model.Show;
 import lombok.NonNull;
 
