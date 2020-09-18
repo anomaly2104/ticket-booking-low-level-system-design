@@ -34,8 +34,8 @@ public class BaseTest {
     }
 
 
-    protected void validateSeatsList(List<String> seatsList, List<String> allSeats, List<String> excludedSeats) {
-        for (String includedSeat: allSeats) {
+    protected void validateSeatsList(List<String> seatsList, List<String> allSeatsInScreen, List<String> excludedSeats) {
+        for (String includedSeat: allSeatsInScreen) {
             if (!excludedSeats.contains(includedSeat)) {
                 Assert.assertTrue(seatsList.contains(includedSeat));
             }

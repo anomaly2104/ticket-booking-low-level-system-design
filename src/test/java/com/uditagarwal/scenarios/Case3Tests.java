@@ -18,7 +18,7 @@ public class Case3Tests extends BaseTest {
     }
 
     @Test
-    void testCaseUserDoesNotGetTemporarilyUnavaibaleSeats() {
+    void testCase3() {
         String user1 = "User1";
         String user2 = "User2";
 
