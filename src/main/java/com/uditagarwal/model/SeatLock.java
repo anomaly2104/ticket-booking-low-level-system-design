@@ -1,4 +1,4 @@
-package com.uditagarwal.providers;
+package com.uditagarwal.model;
 
 
 import com.uditagarwal.model.Seat;
