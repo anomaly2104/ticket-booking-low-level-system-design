@@ -3,6 +3,9 @@
 ### Problem Statement
 [Check here](problem-statement.md)
 
+### Connect with me and my offerings:
+https://enginebogie.com/u/anomaly2104
+
 ### Video Explanation
 [https://www.youtube.com/playlist?list=PL564gOx0bCLpAL7yMJqOuK3_hBuLkyRhn](https://www.youtube.com/playlist?list=PL564gOx0bCLpAL7yMJqOuK3_hBuLkyRhn)
 
